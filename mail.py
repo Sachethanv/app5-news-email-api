@@ -5,9 +5,9 @@ from email.mime.text import MIMEText
 def send_email(message):
     host = "smtp.gmail.com"
     port = 465
-    username = "sachethanv.codes@gmail.com"
-    password = "enxi ldta qniw wevi"
-    receiver = "aj062209@gmail.com"
+    username = "YOUR MAIL ID"
+    password = "YOUR PASSWORD"
+    receiver = "TO MAIL ID"
 
     # Create an email message with utf-8 encoding
     msg = MIMEText(message, "plain", "utf-8")
